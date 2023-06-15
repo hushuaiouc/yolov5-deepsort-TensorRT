@@ -1,5 +1,0 @@
-/jetson-inference/yolov5-deepsort-tensorrt/build/CMakeFiles/deepsort.dir
-/jetson-inference/yolov5-deepsort-tensorrt/build/CMakeFiles/yolov5_trt.dir
-/jetson-inference/yolov5-deepsort-tensorrt/build/CMakeFiles/yolosort.dir
-/jetson-inference/yolov5-deepsort-tensorrt/build/CMakeFiles/edit_cache.dir
-/jetson-inference/yolov5-deepsort-tensorrt/build/CMakeFiles/rebuild_cache.dir
