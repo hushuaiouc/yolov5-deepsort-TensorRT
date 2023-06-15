@@ -31,6 +31,7 @@ docker/run.sh
 git clone 
 cd yolov5-deepsort-tensorrt
 // before you cmake and make, please change ./src/main.cpp char* yolo_engine = ""; char* sort_engine = ""; to your own path
+mkdir build
 cd build 
 cmake ..
 make 
