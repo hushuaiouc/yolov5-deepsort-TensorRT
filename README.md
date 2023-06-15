@@ -28,8 +28,8 @@ docker/run.sh
 ## Build and Run
 
 ```shell
-git clone 
-cd yolov5-deepsort-tensorrt
+git clone https://github.com/hushuaiouc/yolov5-deepsort-TensorRT.git
+cd yolov5-deepsort-TensorRT
 // before you cmake and make, please change ./src/main.cpp char* yolo_engine = ""; char* sort_engine = ""; to your own path
 mkdir build
 cd build 
