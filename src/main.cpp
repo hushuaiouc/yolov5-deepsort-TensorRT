@@ -18,13 +18,14 @@ int main(){
 	map<int,vector<int>> personstate;
 	map<int,int> classidmap;
 	bool is_first = true;
-	char* yolo_engine = "/jetson-inference/yolov5-deepsort-tensorrt/resources/yolov5s.engine";
-	char* sort_engine = "/jetson-inference/yolov5-deepsort-tensorrt/resources/deepsort.engine";
+	char* yolo_engine = "../resources/yolov5s.engine";
+	char* sort_engine = "../resources/deepsort.engine";
 	float conf_thre = 0.4;
 	Trtyolosort yosort(yolo_engine,sort_engine);
 	VideoCapture capture;
 	cv::Mat frame;
-	frame = capture.open("/jetson-inference/yolov5-deepsort-tensorrt/test.mp4");
+	frame = capture.open("../test.mp4");
+	//frame = capture.open(0);
 	if (!capture.isOpened()){
 		std::cout<<"can not open"<<std::endl;
 		return -1 ;
