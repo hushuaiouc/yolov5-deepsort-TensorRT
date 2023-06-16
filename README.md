@@ -4,7 +4,7 @@ Yolov5 and Deepsort TenoorRT in Jetson Xavier nx and Jetson nano
 This repository uses yolov5 and deepsort to track human which can run in Jetson Xavier nx and Jetson nano. 
 
 
-For more details, please refer to [BILIBILI](). We recorded a detailed video on how to run this project.
+For more details, please refer to [BILIBILI](https://b23.tv/mR6X4KA). We recorded a detailed video on how to run this project.
 
 ## Requirement
 1. Jetson nano or Jetson Xavier nx
